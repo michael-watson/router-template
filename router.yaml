@@ -9,6 +9,8 @@ homepage:
   enabled: false
 include_subgraph_errors:
   all: true
+health_check:
+  enabled: false
 
 limits:
   parser_max_tokens: 15000 # This is the default value.
