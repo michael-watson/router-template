@@ -10,7 +10,7 @@ preview_connectors:
         stripe: ${env.STRIPE_SECRET_KEY}
         strapi: ${env.STRAPI_SECRET_KEY}
 persisted_queries:
-  enabled: true
+  enabled: ${env.ENABLE_SAFELIST:-true}
   safelist:
     enabled: ${env.ENABLE_SAFELIST:-true}
 apq:
