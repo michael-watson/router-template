@@ -4,4 +4,4 @@ FROM ghcr.io/apollographql/router:${APOLLO_ROUTER_VERSION}
 
 COPY router.yaml /config.yaml
 
- CMD ["--config", "/config.yaml", "--dev"]
+ CMD ["--config", "/config.yaml"]
