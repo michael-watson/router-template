@@ -1,4 +1,4 @@
-ARG APOLLO_ROUTER_VERSION="v1.55.0"
+ARG APOLLO_ROUTER_VERSION="v2.0.0-preview.0"
 
 FROM ghcr.io/apollographql/router:${APOLLO_ROUTER_VERSION}
 
