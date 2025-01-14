@@ -6,7 +6,9 @@ supergraph:
       in_memory:
         limit: 512 # This is the default value
 homepage:
-  enabled: false
+  enabled: true
+sandbox:
+  enabled: true
 include_subgraph_errors:
   all: true
 health_check:
