@@ -11,6 +11,8 @@ homepage:
   enabled: false
 include_subgraph_errors:
   all: true
+cors:
+  https://apollographql.com
 
 limits:
   parser_max_tokens: 15000 # This is the default value.
