@@ -13,7 +13,9 @@ include_subgraph_errors:
   all: true
 health_check:
   enabled: false
-
+cors:
+  https://apollographql.com
+  
 limits:
   parser_max_tokens: 15000 # This is the default value.
   parser_max_recursion: 4096 # This is the default value.
