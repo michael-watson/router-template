@@ -14,7 +14,10 @@ include_subgraph_errors:
 health_check:
   enabled: false
 cors:
-  https://apollographql.com
+  origins:
+    - https://apollographql.com
+  match_origins:
+    - "^https://([a-z0-9]+[.])*apollographql[.]netlify[.]app$"
   
 limits:
   parser_max_tokens: 15000 # This is the default value.
