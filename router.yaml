@@ -34,7 +34,7 @@ headers:
       - propagate:
           matching: .*
 connectors:
-  sources:
+  subgraphs:
     connector:
       $config:
         stripe: ${env.STRIPE_SECRET_KEY}
