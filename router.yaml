@@ -33,8 +33,8 @@ headers:
     request:
       - propagate:
           matching: .*
-preview_connectors:
-  subgraphs:
+connectors:
+  sources:
     connector:
       $config:
         stripe: ${env.STRIPE_SECRET_KEY}
