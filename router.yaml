@@ -21,8 +21,3 @@ limits:
   max_height: 200
   max_aliases: 30
   max_root_fields: 20
-
-telemetry:
-  instrumentation:
-    spans:
-      mode: spec_compliant
