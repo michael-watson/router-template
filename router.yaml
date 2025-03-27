@@ -14,7 +14,7 @@ include_subgraph_errors:
 health_check:
   enabled: false
 cors:
-  allow_any_origin: true
+  # allow_any_origin: true
   origins:
     - https://apollographql.com
     - https://deploy-preview-485--v2-apollographql.netlify.app
