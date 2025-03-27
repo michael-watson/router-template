@@ -1,6 +1,6 @@
-ARG APOLLO_ROUTER_VERSION="v2.0.0"
+ARG APOLLO_ROUTER_VERSION="v2.1.0"
 
-FROM ghcr.io/apollographql/router:v2.0.0
+FROM ghcr.io/apollographql/router:v2.1.0
 
 COPY router.yaml /config.yaml
 

@@ -34,10 +34,12 @@ headers:
       - propagate:
           matching: .*
 connectors:
-  subgraphs:
-    connector:
+  sources:
+    connector.stripe:
       $config:
         stripe: ${env.STRIPE_SECRET_KEY}
+    connector.strapi:
+      $config:
         strapi: ${env.STRAPI_SECRET_KEY}
 persisted_queries:
   enabled: ${env.ENABLE_PQ:-true}
