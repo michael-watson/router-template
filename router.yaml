@@ -17,8 +17,10 @@ cors:
   allow_any_origin: true
   origins:
     - https://apollographql.com
-  match_origins:
-    - "^https://([a-z0-9]+[.])*apollographql[.]netlify[.]app$"
+    - https://deploy-preview-485--v2-apollographql.netlify.app
+  # match_origins:
+  #   - "^https://([a-z0-9]+[.])*apollographql[.]netlify[.]app$"
+  allow_credentials: true
   
 limits:
   parser_max_tokens: 15000 # This is the default value.
